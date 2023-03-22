@@ -12,11 +12,11 @@ FoodMan is a website that aims to reduce the wastage of perishable food ingredie
 #### Adding Product
 
 * Click the “Add button” on the top-right corner.
-![alt text]('https://drive.google.com/file/d/1zBlxSSnUr8rmmjvynSid5wRhwXght5Ok/view?usp=sharing')
+![alt text](https://drive.google.com/file/d/1zBlxSSnUr8rmmjvynSid5wRhwXght5Ok/view?usp=sharing)
 
 * Input the product details; id, name and expiry date and click the enter button.
 
-![alt text]('https://drive.google.com/file/d/1eEJpJaVO8p4LpkUdlPffWRnuiU9DIbr8/view?usp=sharing')
+![alt text](https://drive.google.com/file/d/1eEJpJaVO8p4LpkUdlPffWRnuiU9DIbr8/view?usp=sharing)
 
 #### Product Status
 
