@@ -27,4 +27,4 @@ FoodMan is a website that aims to reduce the wastage of perishable food ingredie
 
 ####  Want to try it out? click the link below
 
-[FoodMan Live](https://github.com/fawazlolade/foodMan#readme)
+[FoodMan Live](https://fawazlolade.github.io/foodMan/)
