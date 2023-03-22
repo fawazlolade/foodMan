@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodman</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="assets/icons/logo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <!--================================NAVBAR==================================-->
+        <nav class="side-nav">
+           <a href="" class="logo">
+                <span><img src="assets/icons/logo.svg" width="40" height="40"/>
+                <br/>
+                <span>Foodman</span>
+           </a> 
+            <div class="nav_item_list">
+                 <ul class="list">
+                    <li class="link_item"><a href="#"> <i class="fa fa-tachometer" aria-hidden="true"></i> Dashboard</a></li>
+                    <li class="link_item"><a href="#" onclick="alert('coming soon')"><i class="fa fa-bell" aria-hidden="true"></i> Activity</a></li>
+                    <li class="link_item"><a href="#"  onclick="alert('coming soon')"> <i class="fa fa-check-circle" aria-hidden="true"></i> Good Products</a></li>
+                    <li class="link_item"><a href="#"  onclick="alert('coming soon')"><i class="fa fa-sliders" aria-hidden="true"></i> Settings</a></li>
+                 </ul> 
+                <div class="help">
+                    <a href="" class="howto"><i class="fa fa-info-circle" aria-hidden="true"></i>How to use</a>
+                </div> 
+            </div>
+          
+        </nav>
+
+
+      <!--================================PRODUCT TABLE==================================-->        
+        <div class="product-container">
+            <table class="styled-table" id="product-table">
+                <thead>
+                    <tr>
+                        <th>Status</th>
+                        <th>Name</th>
+                        <th>Expiry date</th>
+                        <th>ID</th>
+                        <th>Actions</th>
+                
+                    </tr>
+                </thead>
+                <tbody id="product-list">
+                
+                </tbody>
+            </table>
+        </div>
+
+
+
+     <!--================================ADD PRODUCT==================================-->
+        <div class="add">  
+            <button class="add-btn"> Add new product <span id="plus">&plus;</span></button>
+        </div>
+
+
+     <!--================================SEARCH PRODUCT==================================-->   
+        <div class="search">
+            <input type="text" id="search" onkeyup="searchProducts()" placeholder="Search item by name...">
+        </div>
+
+
+     <!--================================FORM CONTAINER==================================-->  
+        <div class="form-container">
+            <form id="product-form">
+                <div class="form-title">
+                    <h3>Add products</h3>
+                    <p>Start keeping track of your perishable products</p>
+                </div>
+                <div id="product-id">
+                    <input type="text" name="id" id="id" placeholder="Enter product id">
+                </div>
+                <div id="product-name">
+                    <input type="text" name="name" id="name" placeholder="Enter product name">
+                </div>
+                <div id="product-expiryDay"> 
+                    <input type="date" name="expiryDay" id="expiryDay" placeholder="Expiry day">
+                </div>
+                <div id="product-submit"> 
+                    <input type="submit" value="Enter">
+                </div> 
+           
+            </form>
+            <button id="close-btn">Close</button>
+        </div>
+        
+    </header>
+
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
