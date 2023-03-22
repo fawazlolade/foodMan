@@ -2,19 +2,19 @@
 
 @font-face {
     font-family: PoppinsSemiBold;
-    src: url('foodMan/assets/fonts/Poppins/Poppins-SemiBold.ttf');
+    src: url('/foodMan/assets/fonts/Poppins/Poppins-SemiBold.ttf');
   }
   @font-face {
     font-family: PoppinsLight;
-    src: url('foodMan/assets/fonts/Poppins/Poppins-Light.ttf'); 
+    src: url('/foodMan/assets/fonts/Poppins/Poppins-Light.ttf'); 
   }
   @font-face {
     font-family: PoppinsRegular;
-    src: url('foodMan/assets/fonts/Poppins/Poppins-Regular.ttf'); 
+    src: url('/foodMan/assets/fonts/Poppins/Poppins-Regular.ttf'); 
   }
   @font-face {
     font-family: PoppinsMedium;
-    src: url('foodMan/assets/fonts/Poppins/Poppins-Medium.ttf');
+    src: url('/foodMan/assets/fonts/Poppins/Poppins-Medium.ttf');
   }
 
 
