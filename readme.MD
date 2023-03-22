@@ -3,7 +3,7 @@
 Learn What is Foodman, how it works and how to use.
 
 
-### What is FoodMan?
+### What is FoodMan V1.0?
 
 
 FoodMan is a website that aims to reduce the wastage of perishable food ingredients/products and it does this by notifying its user 3 days before the product expires. Products are saved using the browser’s local storage so the products are not lost on page reload. 
@@ -27,4 +27,4 @@ FoodMan is a website that aims to reduce the wastage of perishable food ingredie
 
 ####  Want to try it out? click the link below
 
-[FoodMan Live](https://fawazlolade.github.io/foodMan/)
+[FoodMan Live](https://fawazlolade.github.io/foodMan/)  
