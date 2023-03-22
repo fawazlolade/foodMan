@@ -1,0 +1,341 @@
+/************Font Face: Poppins ***********/
+
+@font-face {
+    font-family: PoppinsSemiBold;
+    src: url('/assets/fonts/Poppins/Poppins-SemiBold.ttf');
+  }
+  @font-face {
+    font-family: PoppinsLight;
+    src: url('/assets/fonts/Poppins/Poppins-Light.ttf'); 
+  }
+  @font-face {
+    font-family: PoppinsRegular;
+    src: url('/assets/fonts/Poppins/Poppins-Regular.ttf'); 
+  }
+  @font-face {
+    font-family: PoppinsMedium;
+    src: url('/assets/fonts/Poppins/Poppins-Medium.ttf');
+  }
+
+
+:root{
+    --background-color: black;
+    --header-width: 100%;
+    --header-height: 100vh;
+    --title-font: PoppinsSemiBold;
+    --text-font: PoppinsRegular;
+    --paragraph-font: PoppinsLight;
+    --mr-bt: 8px 15px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+header{
+    min-height: var(--header-height);
+    width: var(--header-width);
+    position: relative;
+}
+/**********NAVBAR*******/
+nav{
+    height: 100%;
+    width: 20%;
+    background-color: #222;
+    position: fixed;
+    box-shadow: 3px 3px 3px 3px #000;    
+}
+
+.logo{
+    color:dodgerblue;
+    display: block;
+    font-family: 'PoppinsSemiBold';
+    text-align: center;
+    margin: 2rem 0;
+    text-decoration: none;   
+}
+
+.nav_item_list{
+    width: 100%;
+    margin: 50px 0;
+}
+
+.list{
+    list-style-type: none;
+    margin: 8px 30px;
+}
+
+.link_item{
+    color: black;  
+    display: block;
+    margin: 30px 0;
+    padding: 14px 16px;
+}
+
+.link_item a{
+    color:gainsboro;
+    font-family: var(--text-font);
+    margin: 0px 3px;
+    font-size: 0.901rem;
+    text-decoration: none;
+}
+
+i{
+    margin: 0 5px;
+}
+
+.help{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.howto{
+   color: gainsboro;
+   font-size: 0.910rem;
+   padding: 5px;
+   font-family: var(--paragraph-font);
+   text-decoration: none;
+   text-align: center;
+   display: block;
+   margin: 0px 30px;
+   border: 1px solid #888;
+   background-color:#999;
+   border-radius: 50px;
+}
+
+/********PRODUCT CONTAINER********/
+.product-container{
+    background-color: #222;
+    top: 10%;
+    right:1%;
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    padding: 0;    
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 0;
+    font-size: 0.9em;
+    font-family:var(--paragraph-font);   
+}
+
+
+.styled-table thead tr {
+    background-color: #333;
+    color: black;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    background-color: #333;
+    color: white;
+    padding: 12px 15px; 
+    width:15%;
+}
+
+.styled-table tbody tr {
+    color: gainsboro;
+    border-bottom: 1px solid #dddddd;
+    font-family: var(--paragraph-font);
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #4285F4;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #4285F4;
+}
+
+/*******ADD, SEARCH DIV ********/
+.add{
+    top:2%;
+    right:10%;
+    position: absolute;
+}
+
+.add-btn{
+    background:linear-gradient(to right, #4285F4, dodgerblue);
+    border: 2px solid #4285F4;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    margin: 0rem 2rem;
+    font-family: var(--text-font);
+    padding: 8px 16px;
+}
+
+#plus{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+.search{
+    top: 2%;
+    width: 25%;
+    right: 27%;
+    position: absolute;
+}
+
+.search #search{
+    color: white;
+    width: 80%;
+    padding: 13px 17px;
+    background: none;
+    border: 1px solid #222;
+    border-radius: 7px;    
+}
+
+/********FORM CONTAINER***********/
+.form-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 75%;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    overflow-x:hidden ;
+    background-color:snow;
+}
+
+.show{
+    width: 30%;
+    padding: 20px;
+}
+
+.form-title{
+    margin: 2rem 1rem;
+}
+
+.form-title h3, .form-title p{
+    margin: 0.7rem;
+}
+
+.form-title h3{
+    font-family: var(--title-font);
+}
+
+.form-title p{
+    font-family: var(--paragraph-font);
+    font-size: 0.873rem;
+}
+
+#product-id, #product-name, #product-expiryDay, #product-submit{
+    margin: 2rem 1rem;
+}
+
+input[type='text'], input[type='date'] {
+    background-color: #f3f3f3;
+    border: none;
+    display: block;
+    margin: 0rem 0.7rem 0.3rem;
+    width: 80%;
+    padding: 17px 16px;
+}
+
+input[type='submit']{
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: var(--text-font);
+    margin: 0.7rem 0.7rem 0rem;
+    width: 90%;
+    padding: 16px 16px;
+}
+
+input::placeholder{
+    font-family: var(--paragraph-font);
+}
+
+input:focus{
+    border: 2px solid white;
+    outline:2px solid white;
+}
+
+input[type="search"]:focus{
+caret-color: white;
+}
+
+#close-btn{
+background-color: transparent;
+font-size: 0.961rem;
+border: none;
+cursor: pointer;
+outline: none;    
+text-align: center;
+display: block;
+padding: 7px;
+margin: 0 auto;   
+text-decoration:underline;
+}
+
+
+
+
+/***ACTION BUTTONS****/
+.action-btns {
+    color: white;
+    padding: 4.5px;
+    margin: 0px 4px;
+    text-decoration: none;
+}
+
+.fa-exclamation-triangle{
+    color: crimson ;
+}
+.edit{
+    background-color: #4285F4;
+}
+
+.delete{
+    background-color: crimson;
+}
+
+.fa-bullhorn {
+    color: chocolate;
+}
+
+.fa-check-square{
+    color: springgreen;
+}
+
+.alert {
+    position: absolute;
+    color: white;
+    top:5%;
+    left: 55%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    padding: 18px;    
+    text-align: center;
+    
+}
+
+.success{
+background-color: springgreen;
+}
+
+.danger{
+    background-color: crimson;
+}
+
+.warning{
+    background-color: chocolate;
+}
