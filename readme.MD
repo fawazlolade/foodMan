@@ -1,6 +1,6 @@
 ## Introduction
 
-Learn What is Foodman, how it works and how to use
+Learn What is Foodman, how it works and how to use.
 
 
 ### What is FoodMan?
@@ -12,11 +12,9 @@ FoodMan is a website that aims to reduce the wastage of perishable food ingredie
 #### Adding Product
 
 * Click the “Add button” on the top-right corner.
-![alt text](https://drive.google.com/file/d/1zBlxSSnUr8rmmjvynSid5wRhwXght5Ok/view?usp=sharing)
 
 * Input the product details; id, name and expiry date and click the enter button.
 
-![alt text](https://drive.google.com/file/d/1eEJpJaVO8p4LpkUdlPffWRnuiU9DIbr8/view?usp=sharing)
 
 #### Product Status
 
@@ -27,5 +25,6 @@ FoodMan is a website that aims to reduce the wastage of perishable food ingredie
 * Expired: The status of a product is “Expired” when the number of days before expiry is 0.
 
 
-####  
+####  Want to try it out?
 
+[FoodMan.](https://github.com/fawazlolade/foodMan#readme)
