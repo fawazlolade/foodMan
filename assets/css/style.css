@@ -12,10 +12,7 @@
     font-family: PoppinsRegular;
     src: url('/foodMan/assets/fonts/Poppins/Poppins-Regular.ttf'); 
   }
-  @font-face {
-    font-family: PoppinsMedium;
-    src: url('/foodMan/assets/fonts/Poppins/Poppins-Medium.ttf');
-  }
+
 
 
 :root{
@@ -274,11 +271,10 @@ caret-color: white;
 }
 
 #close-btn{
-background-color: transparent;
+background: transparent;
 font-size: 0.961rem;
 border: none;
-cursor: pointer;
-outline: none;    
+cursor: pointer; 
 text-align: center;
 display: block;
 padding: 7px;

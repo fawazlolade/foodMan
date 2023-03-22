@@ -25,6 +25,6 @@ FoodMan is a website that aims to reduce the wastage of perishable food ingredie
 * Expired: The status of a product is “Expired” when the number of days before expiry is 0.
 
 
-####  Want to try it out?
+####  Want to try it out? click the link below
 
-[FoodMan.](https://github.com/fawazlolade/foodMan#readme)
+[FoodMan Live](https://github.com/fawazlolade/foodMan#readme)

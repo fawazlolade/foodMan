@@ -73,7 +73,7 @@ class UI{
     }
 
 }
-
+//storing products with local storage
 class StoreProducts {
     static getProducts() {
         let products;
