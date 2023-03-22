@@ -296,16 +296,13 @@ text-decoration:underline;
     margin: 0px 4px;
     text-decoration: none;
 }
-
-.fa-exclamation-triangle{
-    color: crimson ;
-}
-.edit{
-    background-color: #4285F4;
-}
-
 .delete{
     background-color: crimson;
+}
+
+/**************ICONS**************/
+.fa-exclamation-triangle{
+    color: crimson ;
 }
 
 .fa-bullhorn {
@@ -316,6 +313,7 @@ text-decoration:underline;
     color: springgreen;
 }
 
+/*************NOTIFICATION***************/
 .alert {
     position: absolute;
     color: white;
@@ -329,13 +327,13 @@ text-decoration:underline;
 }
 
 .success{
-background-color: springgreen;
+    background-color: springgreen;
 }
-
+    
 .danger{
     background-color: crimson;
 }
 
-.warning{
-    background-color: chocolate;
-}
+
+
+
